@@ -1,0 +1,100 @@
+.card-container {
+  height: auto;
+  width: auto;
+  background-color: #dfd3d3;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2%;
+  position: flex;
+}
+
+.card-name {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.card-img {
+  height: 400px;
+  width: 500px;
+  border-radius: 3%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card-img:hover {
+  cursor: pointer;
+}
+
+.img-full {
+  position: static;
+  border-radius: 3%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card-content {
+  color: #7c7575;
+  width: 50% 50%;
+  margin: 10px 30%;
+}
+
+.btn {
+  border: 1px solid #7c7575;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  background-color: #dfd3d3;
+  color: #393232;
+  margin: 20px 20px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #f57170;
+  color: #ffffff;
+  border: 1px solid #f57170;
+}
+
+.btn-zoomIn {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  background-color: #dfd3d3;
+  margin-top: 20px;
+  border-radius: 50%;
+  border: 2px solid #393232;
+}
+
+.btn-zoomIn:hover {
+  background-color: #dfd3d3;
+}
+
+.btn-zoomOut {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  background-color: #dfd3d3;
+  margin-top: 20px;
+  border-radius: 50%;
+  border: 2px solid #393232;
+}
+
+.btn-zoomOut:hover {
+  cursor: pointer;
+  background-color: #dfd3d3;
+}
+
+.btn-read-more {
+  background-color: #dfd3d3;
+  border: none;
+  color: #7c7575;
+  font-size: 1rem;
+}
+.btn-read-more:hover {
+  cursor: pointer;
+  color: #393232;
+}
+
+i {
+  padding: 5px;
+}
